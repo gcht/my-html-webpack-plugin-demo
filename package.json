@@ -5,8 +5,8 @@
   "main": "./src/index.js",
   "private": true,
   "scripts": {    
-    "dev": "npx webpack --config webpack.config.js",
-    "npx": "npx webpack --config webpack.config.js",
+    "dev": "npx webpack --config webpack.config.js --progress --colors",
+    "npx": "npx webpack --config webpack.config.js --progress --colors" ,
     "start": "webpack-dev-server --progress --colors source-map"
   },
   "repository": {
